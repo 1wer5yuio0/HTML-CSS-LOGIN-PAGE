@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Playwrite NG Modern", cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+
+    .container {
+        background-color: white;
+        width: 100vh;
+        padding: 18px;
+        border-radius: 40px;
+        box-shadow: 0px 0px 17px black;
+
+    }
+
+    .container h2 {
+        font-size: 50px;
+        color: #9b0aed;
+        text-align: center;
+    }
+
+    .container .input-box {
+        width: 100%;
+        height: 50px;
+        margin: 30px 0px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .input-box input {
+        background-color: red;
+        box-sizing: border-box;
+        height: 20rem;
+        width: 26rem;
+        margin: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        background-color: black;
+        outline: none;
+        border: 2px solid red;
+        border-radius: 60px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+    }
+    @media screen and (min-width: 480px) {
+        #leftsidebar {width: 200px; float: left;}
+        #main {margin-left: 216px;}
+      }
+    .input-box input::placeholder {
+        color: white;
+        font-weight: 600;
+
+
+    }
+
+    .input-box i {
+        color: white;
+        right: 22px;
+        top: 32%;
+        position: absolute;
+        transform: translate(-50%);
+
+
+    }
+
+    .remeber-forget {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+
+    }
+
+    .remeber-forget label input {
+        accent-color: green;
+        margin-right: 9px;
+
+    }
+
+    .remeber-forget label {
+        bottom: 14px;
+        left: 22px;
+        position: relative;
+    }
+
+    .remeber-forget a {
+        font-weight: 600;
+
+        color: rgb(60, 0, 255);
+        text-decoration: none;
+        bottom: 14px;
+        left: -35px;
+        position: relative;
+        font-size: 14pxs;
+    }
+
+
+    .remeber-forget a:hover {
+        text-decoration: underline;
+    }
+
+    .container .btn {
+        width: 100%;
+        height: 45px;
+        margin-top: 12px;
+        background-color: black;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0px 0px 10px black;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 20px;
+    }
+   .btn::hover{
+        background-color: cyan;
+        color:darkorange
+    }
+    .ragister-link {
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin-top: 10px;
+        padding: 28px 21px 0;
+        font-size: 20px;
+
+    }
+
+    .ragister-link a {
+        font-weight: 600;
+
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 10px;
+
+    }
+    .ragister-link a:hover {
+        text-decoration: underline;
+    }
